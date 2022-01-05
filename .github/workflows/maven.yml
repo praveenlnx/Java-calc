@@ -28,7 +28,7 @@ jobs:
            mkdir artifacts && cp target/*.jar artifacts
            cd artifacts && la
     - name: Upload-articats
-      uses: actions/upload-artifact@2
+      uses: actions/upload-artifact@v2
       with:
         name: github-actions-artifacts
         path: artifacts
